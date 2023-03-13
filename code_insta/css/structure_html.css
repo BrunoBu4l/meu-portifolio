@@ -1,0 +1,81 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body{
+    border: double 10px #cbdace;
+    border-radius: 10px ;
+    height: 100%;
+}
+
+header{
+    border: solid 2px #0dec45;
+    width: 94%;
+    margin: 1%;
+    height: 8%;
+    padding: 2%;
+}
+
+nav{
+    border: solid 2px #f32c6e;
+    width: 94%;
+    margin: 1%;
+    height: 2%;
+    padding: 2%;
+}
+
+article{
+    border: solid 2px #17b6f5;
+    width: 70%;
+    height: 2%;
+    padding: 2%;
+}
+article header{
+    width: 95%;
+    margin: 1%;
+    height: 8%;
+    padding: 2%;
+}
+
+article section{
+    border: solid 2px #f148e3;
+    width: 95%;
+    margin: 1%;
+    height: 2%;
+    padding: 2%;
+}
+
+article footer{
+    border: solid 2px #f1f50e;
+    margin: 1%;
+    width: 95%;
+    height: 2%;
+    padding: 2%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.submain{
+    border: solid 2px #f79707;
+    width: 30%;
+    padding: 2%;
+}
+
+.submain aside{
+    border: solid 2px #1ceee3;
+    height: 40%;
+    padding: 2%;
+}
+
+footer{
+    border: solid 2px #f1f50e;
+    margin: 1%;
+    padding: 2%;
+}

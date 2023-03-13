@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Função de show/hide -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     
+    <title>Filmes</title>
+</head>
+<body>
+    <section>
+        <h3 class="post_title">Um passe de mágica</h3>
+                    <button type="button">Ir</button>
+                    <p>Kiki delivery service</p>
+                    <a href="https://ms-my.facebook.com/BarueriAnimeFest/videos/o-servi%C3%A7o-de-entrega-da-kiki-liveaction/217693853050493/" target="_blank">Aqui</a>
+                    <br/>
+                    <br/>
+                    <a href="https://ok.ru/video/1462153710161" target="_blank">Um passe de mágica</a>
+    </section>
+    <div id="movie1">
+        
+        <iframe id="upm" width="853" height="480" src="//ok.ru/videoembed/1462153710161" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+    </div>
+    <script>
+        var ver = false;
+        $("#upm").hide();
+        $('button').click(function(){
+            if(ver == false){
+                $("#upm").show(),
+                ver = true;
+            }else{
+                $("#upm").hide(),
+                ver = false;
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,725 @@
+/* Estilização Padronizada */
+:root{
+    --border_header: #FF4500;
+    --bg_header: #00004D;
+    
+    --cor_white: #FFFFFF;
+    --cor_red:   #FF0000;
+    --cor_black: #000000;
+    --cor_yelow: #FCF808;
+    --cor_blue:  #0000FF;
+    --cor_green: #00FF00;
+    --cor_gray:  #a2a4a7;
+
+    --pad_default: 20px;
+}
+
+/* Geral */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    border: solid 1px var(--border_header);
+    background-color: var(--bg_header);
+}
+
+.cabecalho h1{
+    color: var(--cor_white);
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+/* Menu - Dentro do Cabeçalho */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    padding: var(--pad_default);
+    /* border: solid 1px orange; */
+    font-weight: 400;
+}
+
+.menu a, i{
+    color: var(--cor_green);
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+ a:hover{
+    color: var(--cor_red);
+    text-decoration: underline;
+}
+
+a[aria-disabled="true"] {
+    color: var(--cor_gray);
+    pointer-events: none;
+}
+
+/* Menu - Hamburguer */
+#toggle, .nav{
+    visibility: collapse;
+}
+
+/* Corpo */
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Aside à esquerda */
+.submain{
+    margin: 1%;
+    max-width: 30%;
+}
+.subaside{
+    margin: 1%;
+    padding: 10px;  
+    height: 95%;
+    width: 95%; 
+}
+
+.subaside h2, .subaside h3{
+    font-weight: 400; 
+} 
+
+.divaside{
+    margin: 10px 0px;
+}
+
+/* Conteudo Principal (meio) */
+
+/* div */
+.main{
+    border-right: solid 1px var(--cor_red);
+    border-left: solid 1px  var(--cor_red);
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+/* article */
+article{
+    padding: var(--pad_default);
+    /* border: solid 1px var(--cor_yelow); */
+}
+
+/* H2 - Artigo */
+.post-content{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1%;
+}
+
+section{
+    /* padding: var(--pad_default); */
+    /* border: solid 1px var(--cor_blue); */
+    margin: 1em;
+    text-align: justify;
+}
+
+/*Footer*/
+
+footer{
+    padding: var(--pad_default);
+    background-color: var(--cor_gray);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* CSS da página cursos em pages/cursos.html */
+.cursos{
+    padding-bottom: var(--pad_default);
+    border: solid 1px var(--cor_green);
+    display: block;
+    margin: 1% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.cursos h2{
+    align-self: center;
+}
+
+.cursos a{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: var(--cor_black);
+}
+
+.cursos a:hover{
+    cursor: pointer;
+    color: var(--cor_red);
+}
+
+/* radio OTTAVA*/
+
+/*div externa*/
+.my-radio{
+    width: 100%; 
+    max-width: 100%; 
+    max-height: 500px; 
+    border: 1px solid #817f80; 
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+}
+/*Texto Radio Ottava*/
+.span-radio{
+    margin-left: 1px; 
+    color: #3d3d3d; 
+    font-weight: bold; 
+    font-size: 15px;  
+    overflow: visible; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+/*Top-bar*/
+.my-radio-2{
+    background: #f9f0f0; 
+    height: 75px; 
+    width: 100%;  
+    padding: 5px; 
+    line-height: 100px;
+}
+
+/*Link na imagem Ottava*/
+.my-radio-3{
+    height: 100%; 
+    display: inline-block; 
+    line-height: 65px; 
+    cursor: pointer;
+}
+
+/*imagem logo Ottava*/
+.img-ottava{ 
+    height: 74px; 
+    margin-top: -5px; 
+    box-shadow: black 0px 0px 3px -1px;
+}
+/*Volume*/
+.vol{
+    fill: #808080; 
+    margin: 2px;
+}
+
+.ottava-list{
+    width: 100%; 
+    background-color: rgb(238, 238, 238); 
+    max-height: calc(415px); 
+    padding: 0px; 
+    margin: 0px; 
+    overflow-y: scroll;
+}
+
+.mytuner-widget { 
+    all: initial; 
+    display: block; 
+    color: #3D3D3D; 
+}
+.mytuner-widget, .mytuner-widget * { 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+} 
+.main-play-button { 
+    padding: 5px; 
+    border-radius: 20px; 
+    width: 40px; 
+    height: 40px; 
+    margin-left: 10px; 
+    margin-right: 15px; 
+    margin-top: 12.5px; 
+    cursor: pointer; 
+    background-color: #FFF; 
+    box-shadow: 1px 2px 6px -3px black; 
+    display: inline-block; 
+} 
+.main-play-button:hover { 
+    background-color: #EEE; 
+} 
+.main-play-button.disabled { 
+    filter: grayscale(1); 
+    cursor: not-allowed; 
+} 
+.main-play-button div { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Play/BT_Play@2x.png") no-repeat center; 
+    background-size: 16px; 
+    width: 28px; 
+    height: 28px; 
+    margin-left: 3px; 
+} 
+.main-play-button.loading div { 
+    background: url("https://static2.mytuner.mobi/static/images/sprite-loading.gif") no-repeat center; 
+    filter: grayscale(1); 
+    background-size: 28px; 
+    margin-left: 2px; 
+} 
+.main-play-button.playing div { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Pause/BT_Pause@2x.png") no-repeat center; 
+    background-size: 16px; 
+    margin-left: 2px; 
+} 
+.main-play-button.error div { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Error/erro@2x.png") no-repeat center; 
+    background-size: 16px;
+    margin-left: 0; 
+} 
+.play-button { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Play/BT_Play.png") no-repeat center; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+    display: inline-flex; 
+    align-items: center; 
+    margin: auto 4px auto 19px; /* align with radio logo */ 
+} 
+.play-button.loading { 
+    background: url("https://static2.mytuner.mobi/static/images/sprite-loading.gif") no-repeat center; 
+    filter: grayscale(1); 
+    background-size: 28px; 
+} 
+.play-button.playing { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Pause/BT_Pause.png") no-repeat center; 
+} 
+.play-button.error { 
+    background: url("https://mytuner-radio.com/static/icons/widgets/BT_Error/erro.png") no-repeat center; 
+    background-size: 15px; 
+} 
+.play-button.disabled { 
+    opacity: 0.3; 
+} 
+.play-button.disabled:hover { 
+    cursor: not-allowed; 
+} 
+input[type=range][orient=vertical] { 
+    writing-mode: bt-lr; /* IE */ 
+    width: 8px; padding: 0 5px; 
+} 
+.volume-controls { 
+    width: 35px; 
+    height: 35px; 
+    display: inline-block; 
+    position: absolute; 
+    margin-left: 5px; 
+    margin-top: 14px; 
+    padding-top: 0; 
+    border-radius: 20px; 
+    box-sizing: content-box !important; 
+    z-index: 10; /* animation */ 
+    border: 1px solid transparent; 
+    transition: background 0.5s, padding 0.5s, margin 0.5s, border 0.5s; 
+    overflow: hidden; 
+} 
+.volume-controls:hover { 
+    padding-top: 140px; /* add original margin */ 
+    margin-top: -126px; 
+    background-color: #F2F2F2; 
+    border: 1px solid grey; 
+    transition: background 0.5s, padding 0.5s, margin 0.5s; 
+} 
+.volume-controls:hover > .volume-control { 
+    display: block; 
+} 
+.volume-controls .volume-control { 
+    opacity: 0; 
+    margin-top: -126px; 
+    margin-left: 13px; 
+    position: absolute; 
+    transition: 0.5s all; 
+} 
+.volume-controls:hover .volume-control { 
+    opacity: 1; 
+} 
+.volume-controls .volume-indicator { 
+    cursor: pointer; 
+    display: block; 
+} 
+.player-radio-link { 
+    width: calc(100% - 65px - 84px - 37px - 12px); 
+} 
+.player-radio-name { 
+    width: calc(100% - 74px - 10px); 
+} 
+.player-mytuner-logo { 
+    margin-left: 47px; 
+} 
+@media (max-width: 480px) { 
+    .player-radio-link { 
+        width: calc(100% - 65px - 84px - 12px); 
+    } 
+    .player-mytuner-logo { 
+        margin-left: 10px; 
+    } 
+    .volume-controls { 
+        display: none; 
+    } 
+} 
+
+/**FIM Radio Ottava**/
+/**----------------**/
+/**Menu Hamburguer**/
+@media screen and (max-width: 700px) {
+
+    .menu{
+        visibility: hidden;
+        display: grid;
+        font-size: xx-small;
+    }
+    #toggle, .nav{
+        visibility: visible;
+    }
+
+    /* Cabeçalho */
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: solid 1px var(--border_header);
+        background-color: var(--bg_header);
+    }
+
+    .logo{
+        width: 20em;
+        height: 20em;
+    }
+
+    .cabecalho h1{
+        color: var(--cor_white);
+        text-decoration: underline;
+        font-weight: 800;
+    }
+
+    .body{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+        font-size: x-large;
+    }
+    
+    /* Aside à esquerda */
+    .submain{
+        margin: 1%;
+    }
+
+    .subaside{
+        width: 15em;
+    }
+    
+    .subaside h2, .subaside h3{
+        font-weight: 400; 
+    } 
+    
+    /* Conteudo Principal (meio) */
+    
+    /* div */
+    .main{
+        border-right: solid 1px var(--cor_red);
+        border-left: solid 1px  var(--cor_red);
+        margin: 1%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* article */
+    article{
+        padding: var(--pad_default);
+        /* border: solid 1px var(--cor_yelow); */
+    }
+    
+    /* H2 - Artigo */
+    .post-content{
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 1%;
+    }
+    
+    section{
+        /* padding: var(--pad_default); */
+        /* border: solid 1px var(--cor_blue); */
+        margin: 1em;
+        text-align: justify;
+    }
+    
+    /*Footer*/
+    
+    footer{
+        padding: var(--pad_default);
+        background-color: var(--cor_gray);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .title{
+        font-size: medium;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .text{
+        text-align: left;
+        margin-left: 15px;
+        padding: 0;
+    }
+
+    .img{
+        width: 20%;
+    }
+
+      
+    #toggle {
+        display: none;
+      }
+      
+      /**
+        Hamburger
+      **/
+      .hamburger {
+        float: left;
+        align-self: flex-start;
+        top: 5em;
+        width: 2em;
+        height: 45px;
+        z-index: 2;
+      }
+      
+      .hamburger div {
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: var(--cor_green);
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      /**
+      Nav Styles
+      **/
+      .nav {
+        width: 50%;
+        height: 20%;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+        text-align: left;
+        margin-top: -40%;
+        border: solid 3px var(--cor_red);
+        text-align: center;
+      }
+      .nav-wrapper {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+      }
+
+      nav a {
+        position: relative;
+        text-decoration: none;
+        color: var(--cor_white);
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 1.25em;
+        transition: color 0.2s ease-in-out;
+        letter-spacing: 1px;
+      }
+      nav a:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0.25em;
+        background-color: var(--cor_white);
+        left: -0.5em;
+        transition: all 0.2s ease-in-out;
+      }
+      nav a:hover {
+        color: var(--cor_red);
+        cursor: pointer;
+      }
+      nav a:hover:before {
+        height: 50%;
+      }
+      
+      /**
+      Animations
+      **/
+      #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+      }
+      #toggle:checked + .hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+      }
+      #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+      }
+      
+      #toggle:checked + .hamburger + .nav {
+        top: 0;
+        transform: scale(1);
+      }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .meu-menu, .menu{
+        visibility: hidden;
+    }
+    #toggle, .nav{
+        visibility: visible;
+    }
+
+    body{
+        max-width: max-content;
+       font-size: small;
+    }
+
+    .title{
+        font-size: medium;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .text{
+        text-align: left;
+        margin-left: 15px;
+        padding: 0;
+    }
+
+    .img{
+        width: 10%;
+    }
+
+      
+    #toggle {
+        display: none;
+      }
+      
+      /**
+        Hamburger
+      **/
+      .hamburger {
+        position: absolute;
+        top: 5em;
+        right: 5%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+      }
+      
+      .hamburger div {
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: var(--cor_green);
+        margin-top: 8px;
+        margin-left: -250%;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      /**
+      Nav Styles
+      **/
+      .nav {
+        position: fixed;
+        width: 25%;
+        height: 20%;
+        background-color: var(--bg_header);
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+      }
+      .nav-wrapper {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+      }
+      nav {
+        text-align: left;
+        margin-left: 25%;
+      }
+      nav a {
+        position: relative;
+        text-decoration: none;
+        color: var(--cor_white);
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 1.25em;
+        transition: color 0.2s ease-in-out;
+        letter-spacing: 1px;
+      }
+      nav a:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0.25em;
+        background-color: var(--cor_white);
+        left: -0.5em;
+        transition: all 0.2s ease-in-out;
+      }
+      nav a:hover {
+        color: var(--cor_red);
+        cursor: pointer;
+      }
+      nav a:hover:before {
+        height: 50%;
+      }
+      
+      /**
+      Animations
+      **/
+      #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+      }
+      #toggle:checked + .hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+      }
+      #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+      }
+      
+      #toggle:checked + .hamburger + .nav {
+        top: 0;
+        transform: scale(1);
+      }
+}

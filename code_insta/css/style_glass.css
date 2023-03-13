@@ -1,0 +1,79 @@
+/* Geral */
+*{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+}
+
+/* Menu - voltar */
+nav{
+    background-color: #1201ad;
+    text-align: center;
+}
+
+/* Títulos */
+h1{
+    color: #FFF;
+    text-align: center;
+}
+
+/* Parágrafos e Links */
+p, a{
+    color: #FFF;
+    text-align: center;
+}
+
+a:hover{
+    color: #5ab61d;
+}
+
+/* Disposição do Conteúdo */
+.container{
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Efeito Vidro 1 */
+.body1{
+    border: double 10px #1201ad;
+    background-image: url("https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?w=2000");
+}
+
+.glass-effect{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px) ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 32px;
+}
+
+/* Efeito Vidro 2 */
+.body2{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/09/16/architecture-1868667_1280.jpg") ;
+    background-position: left bottom;
+    font-family:  sans-serif;
+    font-variant: small-caps;
+    border: double 10px #1201ad;
+    padding: 100px;
+}
+
+.filter{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate3d(35%, 35%, 0);
+    width: 200px;
+    height: 200px;
+    margin: 0 35%;
+}
