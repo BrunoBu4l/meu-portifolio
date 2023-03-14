@@ -1,4 +1,4 @@
- // var widget_id = widget_id || "M1w8w4rCq8ObesOpXU7Dm0FCw4TDvcK5w6hCVsOcw54=";
+ // var widget_id = widget_id || "YsOiW8K0ITvCq8ORw6DDsm/DpyZxwrLDi0nDhFPDqcOi";
  var mytuner_scripts = mytuner_scripts || {};
  mytuner_scripts["player-v1.js_queue"] = mytuner_scripts["player-v1.js_queue"] || [];
  if (mytuner_scripts["player-v1.js-imported"] == undefined) {
@@ -25,16 +25,16 @@
              func();
          });
      }
-     mytuner_scripts["player-v1.js_queue"].push(function(){mytuner_scripts["player-v1.js"]("M1w8w4rCq8ObesOpXU7Dm0FCw4TDvcK5w6hCVsOcw54=")});
+     mytuner_scripts["player-v1.js_queue"].push(function(){mytuner_scripts["player-v1.js"]("YsOiW8K0ITvCq8ORw6DDsm/DpyZxwrLDi0nDhFPDqcOi")});
  } else {
-     let widget = document.getElementById("M1w8w4rCq8ObesOpXU7Dm0FCw4TDvcK5w6hCVsOcw54=");
+     let widget = document.getElementById("YsOiW8K0ITvCq8ORw6DDsm/DpyZxwrLDi0nDhFPDqcOi");
      if (widget && widget.dataset.requires_initialization === "true") {
          if (mytuner_scripts["player-v1.js-imported"]) {
-             mytuner_scripts["player-v1.js"]("M1w8w4rCq8ObesOpXU7Dm0FCw4TDvcK5w6hCVsOcw54=");
+             mytuner_scripts["player-v1.js"]("YsOiW8K0ITvCq8ORw6DDsm/DpyZxwrLDi0nDhFPDqcOi");
              widget.dataset.requires_initialization = "false";
          } else {
              mytuner_scripts["player-v1.js_queue"].push(function(){
-                 mytuner_scripts["player-v1.js"]("M1w8w4rCq8ObesOpXU7Dm0FCw4TDvcK5w6hCVsOcw54=");
+                 mytuner_scripts["player-v1.js"]("YsOiW8K0ITvCq8ORw6DDsm/DpyZxwrLDi0nDhFPDqcOi");
                  widget.dataset.requires_initialization = "false";
              });
          }
