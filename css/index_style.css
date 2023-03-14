@@ -102,6 +102,15 @@ a[aria-disabled="true"] {
 /* Conteudo Principal (meio) */
 
 /* div */
+#alert{
+  text-transform: uppercase;
+  color: var(--cor_red);
+  font-size: larger;
+  font-weight: 800;
+  text-align: center;
+  padding:5% 0;
+}
+
 .main{
     border-right: solid 1px var(--cor_red);
     border-left: solid 1px  var(--cor_red);
