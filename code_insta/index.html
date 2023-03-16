@@ -30,10 +30,11 @@
     <header class="cabecalho">
        
         <img src="../img/teste1-no.png" width="10%" class="logo"/>
-        <h1 class="post-content">Minha Lista de Cod_Labs</h1>
+        <h1 class="post-content">Minha Cod_Labs</h1>
+        <a id="arrow" href="../index.html" title="Voltar"><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></a>
         <nav class="menu">
             <a href="./pages/cursos.htm">Cursos</a>
-            <a aria-disabled="true">Idiomas</a>
+            <a aria-disabled="true" href="./pages/cursos.htm">Idiomas</a>
             <!-- <a href="./pages/filmes.html">Filmes</a> -->
             <a aria-disabled="true" href="./pages/cursos.htm">Séries</a>
             <!-- <a  href="./pages/cursos.htm">Desenhos</a> -->
@@ -62,25 +63,34 @@
                 </div>
               </div>
     </header>
-    <div class="list">
-        <ul>
-            <li>
-                <a href="./pages/structure_html.html">Estrutura de uma Pagína HTML</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="./pages/efeito_vidro.html">Estilo Efeito Vidro</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="">Proximo</a>
-            </li>
-        </ul>
-        
-        
-    </div>
-    
+    <div class="row box">
+        <div class="col-sm-6">
+          <div class="card text-white bg-info mb-3 ">
+            <div class="card-body">
+              <h5 class="card-title">Estrutura HTML</h5>
+              <p class="card-text">Uma estrutura, dentre tantas outras, criada com HTML5 e CSS3 puro.</p>
+              <a href="./pages/structure_html.html" class="btn btn-primary">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Estilo "Efeito de Vidro"</h5>
+              <p class="card-text">Dois tipos de efeito vidro usando somente HTML5 e CSS3.</p>
+              <a href="./pages/efeito_vidro.html" class="btn btn-primary">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Pokedex</h5>
+              <p class="card-text">Primeira versão da Pokedex utilizando HTML5, CSS3 e API.</p>
+              <a href="./pages/pokedex.html" class="btn btn-primary">Abrir</a>
+            </div>
+          </div>
+        </div>
+      </div>  
 </body>
 </html>
