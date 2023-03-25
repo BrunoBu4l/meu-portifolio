@@ -80,6 +80,16 @@ a[aria-disabled="true"] {
   background-color: #FAF8FF;
 }
 
+.version section{
+  display: inline;
+  text-align: center;
+  margin: 3px;
+}
+
+li{
+  list-style-type: none;
+}
+
 /* Títulos */
 .title{
     font-weight: 800;
