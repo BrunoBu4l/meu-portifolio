@@ -36,7 +36,7 @@
         <nav class="meu-menu">
             <a id="arrow" href="../index.html" title="Voltar"><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></a>
             <a href="./pages/cursos.htm">Cursos</a>
-            <a aria-disabled="true">Idiomas</a>
+            <a aria-disabled="true" href="./pages/cursos.htm">Idiomas</a>
             <!-- <a href="./pages/filmes.html">Filmes</a> -->
             <a aria-disabled="true" href="./pages/cursos.htm">Séries</a>
             <!-- <a  href="./pages/cursos.htm">Desenhos</a> -->
@@ -57,7 +57,7 @@
                 <div class="nav-wrapper">
                   <nav>
                      <a href="./pages/cursos.htm">Cursos</a><br>
-                     <a aria-disabled="true">Idiomas</a><br/>
+                     <a aria-disabled="true"  href="./pages/cursos.htm">Idiomas</a><br/>
                      <a aria-disabled="true" href="./pages/cursos.htm">Livros</a><br/>
                      <a aria-disabled="true" href="./pages/cursos.htm">Utilitários</a><br/>
                      <a aria-disabled="true" href="./pages/cursos.htm">Diversos</a>
@@ -65,13 +65,107 @@
                 </div>
               </div>
     </header>
-     
-    <!-- Vertically centered modal -->
-    <button type="button">Launch modal</button>
-        <div id="myModal" class="modal-dialog modal-dialog-centered">
-            ...
+    <h1 class="title">Sobre Mim</h1>
+    <article class="about">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Abrir</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sobre Mim</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body bodym">
+                        <section class="text">
+                            <p>Meu nome é Bruno Bueno de Almeida.<br/>
+                                Sou formado em Sistemas para Internet em 2023 pela universidade Unisinos e
+                                Técnico em Informática pela QI desde 2016.<br/>
+                                Atualmente sou MEI(Micro-empreendedor Individual) e trabalho com manutenção
+                                e formatação de computadores e notebooks.<br/>
+                                Meu <strong>objetivo</strong> é ser devenvolvedor web. 
+                            </p>
+                        </section>
+                        <aside class="img">
+                            <img src="../img/eu.jpg" width="100%"/>
+                        </aside>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </article>
+    <hr/>
+    <h1 class="title">Sobre a Code Labs</h1>
+    <article class="about">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCodeLab">Abrir</button>
+            <div class="modal fade" id="modalCodeLab" tabindex="-1" aria-labelledby="codeLabModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="codeLabModal">Sobre a Code_labs</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body bodym">
+                        <section class="text">
+                            <p>A logo foi criado por mim, é simplesmente um laboratório de códigos para mostrar
+                               meus conhecimentos através de aplicação simples e práticas.<br/> 
+                               Muitos dos códigos escritos foram retirados da página do instagram e outros são originais.<br/>
+                               O <strong>objetivo</strong> do Code Labs é mostrar várias páginas que eu aprendi a criar.
+                            </p>
+                        </section>
+                        <aside class="img">
+                            <img src="../img/Logo.png" width="100%"/>
+                        </aside>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </article>
+    <hr/>
+    <h1 class="title">Sobre o Site</h1>
+    <article class="about">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSite">Abrir</button>
+        <div class="modal fade" id="modalSite" tabindex="-1" aria-labelledby="siteModel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="siteModel">Sobre o Site</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body bodym">
+                    <section class="text">
+                        <p>Esse é o meu portifólio para as empresas reconhecer meu trabalho e também para uso pessoal.<br/> 
+                           O site é hospedado pela Netlify.<br/>
+                           O link do meu github encontra-se na página inicial.<br/>
+                           O <strong>objetivo</strong> do site é mostrar experiência além de códigos prontos da internet e funcionar como
+                           um currículo para alcançar o  meu <strong>objetivo</strong>.
+                        </p>
+                    </section>
+                    <aside class="img">
+                        <img src="../img/teste1.jpg" width="100%"/>
+                    </aside>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-     <script>
+    </article>
+    <footer class="footer">
+        <div><a aria-disabled="true" href="https://www.linkedin.com/in/bruno-bual/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
+        <div><a aria-disabled="true" href="https://www.linkedin.com/in/bruno-bual/" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></div>
+        <div><p>Desenvolvido por: Bruno Bueno de Almeida</p></div>
+        <div><a href="https://www.linkedin.com/in/bruno-bual/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></div>
+        <div><a href="https://github.com/BrunoBu4l" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></div>
+    </footer>
+    <!-- Abrir e fechar Modal -->
+    <script>
         var ver = false;
         $("#myModal").hide();
         $('button').click(function(){
@@ -84,49 +178,5 @@
             }
         })
      </script>
-    <h1 class="title">Sobre Mim</h1>
-    <article class="about">
-        <section class="text">
-            <p>Meu nome é Bruno Bueno de Almeida.<br/> 
-               Sou formado em Sistemas para Internet em 2023 pela universidade Unisinos e
-               Técnico em Informática pela QI desde 2016.<br/>
-               Atualmente sou MEI(Micro-empreendedor Individual) e trabalho com manutenção
-               e formatação de computadores e notebooks.<br/>
-               Meu <strong>objetivo</strong> é ser devenvolvedor web. 
-            </p>
-        </section>
-        <aside class="img">
-            <img src="../img/eu.jpg" width="100%"/>
-        </aside>
-    </article>
-    <hr/>
-    <h1 class="title">Sobre a Code Labs</h1>
-    <article class="about">
-        <section class="text">
-            <p>A logo foi criado por mim, é simplesmente um laboratório de códigos para mostrar
-               meus conhecimentos através de aplicação simples e práticas.<br/> 
-               Muitos dos códigos escritos foram retirados da página do instagram e outros são originais.<br/>
-               O <strong>objetivo</strong> do Code Labs é mostrar várias páginas que eu aprendi a criar.
-            </p>
-        </section>
-        <aside class="img">
-            <img src="../img/Logo.png" width="100%"/>
-        </aside>
-    </article>
-    <hr/>
-    <h1 class="title">Sobre o Site</h1>
-    <article class="about">
-        <section class="text">
-            <p>Esse é o meu portifólio para as empresas reconhecer meu trabalho e também para uso pessoal.<br/> 
-               O site é hospedado pela Netlify.<br/>
-               O link do meu github encontra-se na página inicial.<br/>
-               O <strong>objetivo</strong> do site é mostrar experiência além de códigos prontos da internet e funcionar como
-               um currículo para alcançar o  meu <strong>objetivo</strong>.
-            </p>
-        </section>
-        <aside class="img">
-            <img src="../img/teste1.jpg" width="100%"/>
-        </aside>
-    </article>
 </body>
 </html>

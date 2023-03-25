@@ -77,6 +77,7 @@ a[aria-disabled="true"] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #FAF8FF;
 }
 
 /* Aside à esquerda */

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Minha estilização -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cert.css">
+
+     <!--responsividade-->
+     <link rel="stylesheet" href="../css/responsive.css">
+
+     <!--owl css-->
+     <link rel="stylesheet" href="../css/owl/owl.carousel.min.css">
+     <link rel="stylesheet" href="../css/owl/owl.theme.default.min.css">
+
+    <!-- Font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap'); </style>
+
+     <!-- Icones -->
+     <script src="https://kit.fontawesome.com/bf299c5d9a.js" ></script>
+     <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/bf299c5d9a.css"> -->
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      
+
+    <link rel="icon" 
+      type="image/icon" 
+      href="../../img/Logo.ico" />
+
+    <title>Meus Certificados</title>
+</head>
+<body class="body">
+    <header class="cabecalho">
+        <img src="../../img/teste1-no.png" width="10%" class="logo"/>
+        <h1 class="post-content">Portifólio do Bruno</h1>
+        <nav class="menu">
+            <a href="./pages/cursos.html">Cursos</a>
+            <a aria-disabled="true">Idiomas</a>
+            <!-- <a href="./pages/filmes.html">Filmes</a> -->
+            <a href="./pages/sobre.html">Sobre</a>
+            <!-- <a  href="./pages/cursos.htm">Desenhos</a> -->
+            <!-- <a href="./pages/cursos.htm">Doramas</a>
+            <a href="./pages/cursos.htm">Animes</a> -->
+            <a aria-disabled="true" href="./pages/cursos.htm">Livros</a>
+            <a aria-disabled="true" href="./pages/cursos.htm">Utilitários</a>
+            <a href="./code_insta/index.html">Code Labs</a>
+        </nav>
+        <!-- Menu hamburguer -->
+        <input id="toggle" type="checkbox"></input>
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+            <div class="nav">
+                <div class="nav-wrapper">
+                  <nav>
+                     <a href="./pages/cursos.htm">Cursos</a><br>
+                     <a aria-disabled="true">Idiomas</a><br/>
+                     <a aria-disabled="true" href="./pages/cursos.htm">Livros</a><br/>
+                     <a aria-disabled="true" href="./pages/cursos.htm">Utilitários</a><br/>
+                     <a aria-disabled="true" href="./pages/cursos.htm">Diversos</a>
+                  </nav>
+                </div>
+              </div>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div class="container">
+                <h3 class="titulo">Bruno Bueno de Almeida</h3>
+                <p class="descricao">Certificados de cursos online que eu fiz, mostrando minhas qualificações.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-cert">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img id="imagemCertificado" class="box-cert" src="../images/certificado_angular9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/certificado_docker.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/orangetech.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/Vue.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/SI2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/SI1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-cert" src="../images/jogo_da_cobra.jpg" alt="" srcset="">
+                </div>
+            </div>    
+    </div>
+
+    <div class="modal fade" id="modalImagem" tabindex="-1" role="dialog" aria-labelledby="modalImagemLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalImagemLabel">Imagem Ampliada</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img id="imagemModal" src="../images/certificado_angular9.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $(document).ready(function() {
+          $('#imagemCertificado').click(function() {
+            $('#imagemModal').attr('src', $(this).attr('src'));
+            $('#modalImagem').modal('show');
+          });
+        });
+      </script>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="../js/owl/jquery.min.js"></script>
+    <script src="../js/owl/owl.carousel.min.js"></script>
+    <script src="../js/owl/setup.js"></script>
+  
+</body>
+</html>
