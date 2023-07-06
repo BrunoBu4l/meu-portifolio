@@ -1,0 +1,731 @@
+{
+    "": {
+        "id": 0,
+        "kanji": "",
+        "pronuncia_kun": "",
+        "pronuncia_on": "",
+        "hiragana": "Apagar",
+        "katakana": "",
+        "significado": ""
+    },
+    "一": {
+        "id": 1,
+        "kanji": "一",
+        "pronuncia_kun": "ひと・つ",
+        "pronuncia_on": "イチ",
+        "hiragana": "いち",
+        "katakana": "イチ",
+        "significado": "Um"
+    },
+    "ニ": {
+        "id": 2,
+        "kanji": "ニ",
+        "pronuncia_kun": "ふた・つ",
+        "pronuncia_on": "ニ",
+        "hiragana": "に",
+        "katakana": "ニ",
+        "significado": "Dois"
+    },
+    "三": {
+        "id": 3,
+        "kanji": "三",
+        "pronuncia_kun": "みっ・つ",
+        "pronuncia_on": "サン",
+        "hiragana": "さん",
+        "katakana": "サン",
+        "significado": "Três"
+    },
+    "四": {
+        "id": 4,
+        "kanji": "四",
+        "pronuncia_kun": "よ・つ",
+        "pronuncia_on": "シ",
+        "hiragana": "し",
+        "katakana": "シ",
+        "significado": "Quatro"
+    },
+    "五": {
+        "id": 5,
+        "kanji": "五",
+        "pronuncia_kun": "いつ・つ",
+        "pronuncia_on": "ゴ",
+        "hiragana": "ご",
+        "katakana": "ゴ",
+        "significado": "Cinco"
+    },
+    "六": {
+        "id": 6,
+        "kanji": "六",
+        "pronuncia_kun": "むっ・つ",
+        "pronuncia_on": "ロク",
+        "hiragana": "ろく",
+        "katakana": "ロク",
+        "significado": "Seis"
+    },
+    "七": {
+        "id": 7,
+        "kanji": "七",
+        "pronuncia_kun": "なな",
+        "pronuncia_on": "シチ",
+        "hiragana": "しち",
+        "katakana": "シチ",
+        "significado": "Sete"
+    },
+    "八": {
+        "id": 8,
+        "kanji": "八",
+        "pronuncia_kun": "や・つ",
+        "pronuncia_on": "ハチ",
+        "hiragana": "はち",
+        "katakana": "ハチ",
+        "significado": "Oito"
+    },
+    "九": {
+        "id": 9,
+        "kanji": "九",
+        "pronuncia_kun": "ここの・つ",
+        "pronuncia_on": "キュウ",
+        "hiragana": "きゅう",
+        "katakana": "キュウ",
+        "significado": "Nove"
+    },
+    "十": {
+        "id": 10,
+        "kanji": "十",
+        "pronuncia_kun": "とお",
+        "pronuncia_on": "ジュウ、ジッ、ジュッ",
+        "hiragana": "じゅう、じっ、じゅっ",
+        "katakana": "ジュウ、ジッ、ジュッ",
+        "significado": "Dez"
+    },
+    "人": {
+        "id": 11,
+        "kanji": "人",
+        "pronuncia_kun": "ひと、-り、-と",
+        "pronuncia_on": "ジン、ニン",
+        "hiragana": "じん、にん",
+        "katakana": "ジン、ニン",
+        "significado": "Pessoa"
+    },
+    "入": {
+        "id": 12,
+        "kanji": "入",
+        "pronuncia_kun": "はい-る、い-る、い-れる、-い、-いり",
+        "pronuncia_on": "ニュウ、ジュ",
+        "hiragana": "にゅう、じゅ",
+        "katakana": "ニュウ、ジュ",
+        "significado": "Entrar"
+    },
+    "力": {
+        "id": 13,
+        "kanji": "力",
+        "pronuncia_kun": "ちから",
+        "pronuncia_on": "リョク、リキ、リイ",
+        "hiragana": "りょく、りき、りい",
+        "katakana": "リョク、リキ、リイ",
+        "significado": "Força"
+    },
+    "下": {
+        "id": 14,
+        "kanji": "下",
+        "pronuncia_kun": "した、しも、もと、さ-げる、さ-がる、くだ-る、くだ-り、くだ-す、お-ろす、お-りる",
+        "pronuncia_on": "カ、ゲ",
+        "hiragana": "か、げ",
+        "katakana": "カ、ゲ",
+        "significado": "Abaixo, inferior"
+    },
+    "千": {
+        "id": 15,
+        "kanji": "千",
+        "pronuncia_kun": "ち",
+        "pronuncia_on": "セン",
+        "hiragana": "せん",
+        "katakana": "セン",
+        "significado": "Mil"
+    },
+    "上": {
+        "id": 16,
+        "kanji": "上",
+        "pronuncia_kun": "うえ、-うえ、あ-げる、あ-がる、のぼ-る、のぼ-せる、のぼ-す",
+        "pronuncia_on": "ジョウ、ショウ、シャン",
+        "hiragana": "じょう、しょう、しゃん",
+        "katakana": "ジョウ、ショウ、シャン",
+        "significado": "Acima, superior"
+    },
+    "口": {
+        "id": 17,
+        "kanji": "口",
+        "pronuncia_kun": "くち",
+        "pronuncia_on": "コウ",
+        "hiragana": "こう",
+        "katakana": "コウ",
+        "significado": "Boca"
+    },
+    "土": {
+        "id": 18,
+        "kanji": "土",
+        "pronuncia_kun": "つち",
+        "pronuncia_on": "ド、ト",
+        "hiragana": "ど、と",
+        "katakana": "ド、ト",
+        "significado": "Terra"
+    },
+    "夕": {
+        "id": 19,
+        "kanji": "夕",
+        "pronuncia_kun": "ゆう",
+        "pronuncia_on": "セキ",
+        "hiragana": "せき",
+        "katakana": "セキ",
+        "significado": "Noite"
+    },
+    "大": {
+        "id": 20,
+        "kanji": "大",
+        "pronuncia_kun": "おお、おお-きい、おお-いに",
+        "pronuncia_on": "ダイ、タイ",
+        "hiragana": "だい、たい",
+        "katakana": "ダイ、タイ",
+        "significado": "Grande"
+    },
+    "女": {
+        "id": 21,
+        "kanji": "女",
+        "pronuncia_kun": "おんな、め",
+        "pronuncia_on": "ジョ、ニョ、ニョウ",
+        "hiragana": "じょ、にょ、にょう",
+        "katakana": "ジョ、ニョ、ニョウ",
+        "significado": "Mulher"
+    },
+    "子": {
+        "id": 22,
+        "kanji": "子",
+        "pronuncia_kun": "こ",
+        "pronuncia_on": "シ、ス、ツ",
+        "hiragana": "し、す、つ",
+        "katakana": "シ、ス、ツ",
+        "significado": "Filho, criança"
+    },
+    "小": {
+        "id": 23,
+        "kanji": "小",
+        "pronuncia_kun": "ちい、こ、お",
+        "pronuncia_on": "ショウ",
+        "hiragana": "しょう",
+        "katakana": "ショウ",
+        "significado": "Pequeno"
+    },
+    "山": {
+        "id": 24,
+        "kanji": "山",
+        "pronuncia_kun": "やま",
+        "pronuncia_on": "サン",
+        "hiragana": "さん",
+        "katakana": "サン",
+        "significado": "Montanha"
+    },
+    "川": {
+        "id": 25,
+        "kanji": "川",
+        "pronuncia_kun": "かわ",
+        "pronuncia_on": "セン",
+        "hiragana": "せん",
+        "katakana": "セン",
+        "significado": "Rio"
+    },
+    "天": {
+        "id": 26,
+        "kanji": "天",
+        "pronuncia_kun": "あまつ",
+        "pronuncia_on": "テン",
+        "hiragana": "てん",
+        "katakana": "テン",
+        "significado": "Céu"
+    },
+    "中": {
+        "id": 27,
+        "kanji": "中",
+        "pronuncia_kun": "なか",
+        "pronuncia_on": "チュウ",
+        "hiragana": "ちゅう",
+        "katakana": "チュウ",
+        "significado": "Meio, centro"
+    },
+    "円": {
+        "id": 28,
+        "kanji": "円",
+        "pronuncia_kun": "まる-い",
+        "pronuncia_on": "エン",
+        "hiragana": "えん",
+        "katakana": "エン",
+        "significado": "Yen, círculo"
+    },
+    "手": {
+        "id": 29,
+        "kanji": "手",
+        "pronuncia_kun": "て",
+        "pronuncia_on": "シュ",
+        "hiragana": "しゅ",
+        "katakana": "シュ",
+        "significado": "Mão"
+    },
+    "日": {
+        "id": 30,
+        "kanji": "日",
+        "pronuncia_kun": "ひ、か",
+        "pronuncia_on": "ニチ、ジツ",
+        "hiragana": "にち、じつ",
+        "katakana": "ニチ、ジツ",
+        "significado": "Dia, sol"
+    },
+    "月": {
+        "id": 31,
+        "kanji": "月",
+        "pronuncia_kun": "つき",
+        "pronuncia_on": "ゲツ、ガツ",
+        "hiragana": "げつ、がつ",
+        "katakana": "ゲツ、ガツ",
+        "significado": "Mês, lua"
+    },
+    "木": {
+        "id": 32,
+        "kanji": "木",
+        "pronuncia_kun": "き",
+        "pronuncia_on": "ボク、モク",
+        "hiragana": "ぼく、もく",
+        "katakana": "ボク、モク",
+        "significado": "Árvore"
+    },
+    "水": {
+        "id": 33,
+        "kanji": "水",
+        "pronuncia_kun": "みず",
+        "pronuncia_on": "スイ",
+        "hiragana": "すい",
+        "katakana": "スイ",
+        "significado": "Água"
+    },
+    "火": {
+        "id": 34,
+        "kanji": "火",
+        "pronuncia_kun": "ひ",
+        "pronuncia_on": "カ",
+        "hiragana": "か",
+        "katakana": "カ",
+        "significado": "Fogo"
+    },
+    "犬": {
+        "id": 35,
+        "kanji": "犬",
+        "pronuncia_kun": "いぬ",
+        "pronuncia_on": "ケン",
+        "hiragana": "けん",
+        "katakana": "ケン",
+        "significado": "Cão"
+    },
+    "文": {
+        "id": 36,
+        "kanji": "文",
+        "pronuncia_kun": "ふみ",
+        "pronuncia_on": "ブン、モン",
+        "hiragana": "ぶん、もん",
+        "katakana": "ブン、モン",
+        "significado": "Escrita, literatura"
+    },
+    "正": {
+        "id": 37,
+        "kanji": "正",
+        "pronuncia_kun": "ただしい",
+        "pronuncia_on": "セイ、ショウ",
+        "hiragana": "せい、しょう",
+        "katakana": "セイ、ショウ",
+        "significado": "Justo, correto"
+    },
+    "出": {
+        "id": 38,
+        "kanji": "出",
+        "pronuncia_kun": "で・る、だ・す",
+        "pronuncia_on": "シュツ",
+        "hiragana": "しゅつ",
+        "katakana": "シュツ",
+        "significado": "Sair, aparecer"
+    },
+    "本": {
+        "id": 39,
+        "kanji": "本",
+        "pronuncia_kun": "もと",
+        "pronuncia_on": "ホン",
+        "hiragana": "ほん",
+        "katakana": "ホン",
+        "significado": "Livro, raiz"
+    },
+    "右": {
+        "id": 40,
+        "kanji": "右",
+        "pronuncia_kun": "みぎ",
+        "pronuncia_on": "ウ",
+        "hiragana": "う",
+        "katakana": "ウ",
+        "significado": "Direita"
+    },
+    "左": {
+        "id": 41,
+        "kanji": "左",
+        "pronuncia_kun": "ひだり",
+        "pronuncia_on": "サ",
+        "hiragana": "さ",
+        "katakana": "サ",
+        "significado": "Esquerda"
+    },
+    "玉": {
+        "id": 42,
+        "kanji": "玉",
+        "pronuncia_kun": "たま",
+        "pronuncia_on": "ギョク",
+        "hiragana": "ぎょく",
+        "katakana": "ギョク",
+        "significado": "Bola, joia"
+    },
+    "生": {
+        "id": 43,
+        "kanji": "生",
+        "pronuncia_kun": "い・きる、う・まれる",
+        "pronuncia_on": "セイ、ショウ",
+        "hiragana": "せい、しょう",
+        "katakana": "セイ、ショウ",
+        "significado": "Vida, nascer"
+    },
+    "田": {
+        "id": 44,
+        "kanji": "田",
+        "pronuncia_kun": "た",
+        "pronuncia_on": "デン",
+        "hiragana": "でん",
+        "katakana": "デン",
+        "significado": "Campo de arroz"
+    },
+    "白": {
+        "id": 45,
+        "kanji": "白",
+        "pronuncia_kun": "しろ、しら-",
+        "pronuncia_on": "ハク",
+        "hiragana": "はく",
+        "katakana": "ハク",
+        "significado": "Branco"
+    },
+    "目": {
+        "id": 46,
+        "kanji": "目",
+        "pronuncia_kun": "め",
+        "pronuncia_on": "メイ、モク",
+        "hiragana": "めい、もく",
+        "katakana": "メイ、モク",
+        "significado": "Olho"
+    },
+    "石": {
+        "id": 47,
+        "kanji": "石",
+        "pronuncia_kun": "いし",
+        "pronuncia_on": "セキ",
+        "hiragana": "せき",
+        "katakana": "セキ",
+        "significado": "Pedra"
+    },
+    "立": {
+        "id": 48,
+        "kanji": "立",
+        "pronuncia_kun": "た・つ、た・てる",
+        "pronuncia_on": "リツ",
+        "hiragana": "りつ",
+        "katakana": "リツ",
+        "significado": "Ficar em pé"
+    },
+    "百": {
+        "id": 49,
+        "kanji": "百",
+        "pronuncia_kun": "ひゃく",
+        "pronuncia_on": "ヒャク",
+        "hiragana": "ひゃく",
+        "katakana": "ヒャク",
+        "significado": "Cem"
+    },
+    "年": {
+        "id": 50,
+        "kanji": "年",
+        "pronuncia_kun": "とし",
+        "pronuncia_on": "ネン",
+        "hiragana": "ねん",
+        "katakana": "ネン",
+        "significado": "Ano"
+    },
+    "休": {
+        "id": 51,
+        "kanji": "休",
+        "pronuncia_kun": "やす・む、やす・まる、やす・める",
+        "pronuncia_on": "キュウ",
+        "hiragana": "きゅう",
+        "katakana": "キュウ",
+        "significado": "Descansar"
+    },
+    "先": {
+        "id": 52,
+        "kanji": "先",
+        "pronuncia_kun": "さき",
+        "pronuncia_on": "セン",
+        "hiragana": "せん",
+        "katakana": "セン",
+        "significado": "Antes"
+    },
+    "名": {
+        "id": 53,
+        "kanji": "名",
+        "pronuncia_kun": "な",
+        "pronuncia_on": "メイ、ミョウ",
+        "hiragana": "めい、みょう",
+        "katakana": "メイ、ミョウ",
+        "significado": "Nome"
+    },
+    "字": {
+        "id": 54,
+        "kanji": "字",
+        "pronuncia_kun": "あざ",
+        "pronuncia_on": "ジ",
+        "hiragana": "じ",
+        "katakana": "ジ",
+        "significado": "Caractere, letra"
+    },
+    "早": {
+        "id": 55,
+        "kanji": "早",
+        "pronuncia_kun": "はや・い、はや・まる、はや・める",
+        "pronuncia_on": "ソウ",
+        "hiragana": "そう",
+        "katakana": "ソウ",
+        "significado": "Cedo"
+    },
+    "気": {
+        "id": 56,
+        "kanji": "気",
+        "pronuncia_kun": "き",
+        "pronuncia_on": "キ、ケ",
+        "hiragana": "き",
+        "katakana": "キ",
+        "significado": "Energia, espírito"
+    },
+    "竹": {
+        "id": 57,
+        "kanji": "竹",
+        "pronuncia_kun": "たけ",
+        "pronuncia_on": "チク",
+        "hiragana": "ちく",
+        "katakana": "チク",
+        "significado": "Bambu"
+    },
+    "糸": {
+        "id": 58,
+        "kanji": "糸",
+        "pronuncia_kun": "いと",
+        "pronuncia_on": "シ",
+        "hiragana": "し",
+        "katakana": "シ",
+        "significado": "Fio"
+    },
+    "耳": {
+        "id": 59,
+        "kanji": "耳",
+        "pronuncia_kun": "みみ",
+        "pronuncia_on": "ジ",
+        "hiragana": "じ",
+        "katakana": "ジ",
+        "significado": "Orelha"
+    },
+    "虫": {
+        "id": 60,
+        "kanji": "虫",
+        "pronuncia_kun": "むし",
+        "pronuncia_on": "チュウ",
+        "hiragana": "ちゅう",
+        "katakana": "チュウ",
+        "significado": "Inseto"
+    },
+    "村": {
+        "id": 61,
+        "kanji": "村",
+        "pronuncia_kun": "むら",
+        "pronuncia_on": "ソン",
+        "hiragana": "そん",
+        "katakana": "ソン",
+        "significado": "Vila"
+    },
+    "男": {
+        "id": 62,
+        "kanji": "男",
+        "pronuncia_kun": "おとこ",
+        "pronuncia_on": "ダン、ナン",
+        "hiragana": "だん、なん",
+        "katakana": "ダン、ナン",
+        "significado": "Homem"
+    },
+    "町": {
+        "id": 63,
+        "kanji": "町",
+        "pronuncia_kun": "まち",
+        "pronuncia_on": "チョウ",
+        "hiragana": "ちょう",
+        "katakana": "チョウ",
+        "significado": "Cidade, vila"
+    },
+    "花": {
+        "id": 64,
+        "kanji": "花",
+        "pronuncia_kun": "はな",
+        "pronuncia_on": "カ",
+        "hiragana": "か",
+        "katakana": "カ",
+        "significado": "Flor"
+    },
+    "見": {
+        "id": 65,
+        "kanji": "見",
+        "pronuncia_kun": "み・る、み・える、み・せる",
+        "pronuncia_on": "ケン",
+        "hiragana": "けん",
+        "katakana": "",
+        "significado": "Ver, olhar"
+    },
+    "貝": {
+        "id": 66,
+        "kanji": "貝",
+        "pronuncia_kun": "かい",
+        "pronuncia_on": "バイ",
+        "hiragana": "ばい",
+        "katakana": "バイ",
+        "significado": "Concha"
+    },
+    "赤": {
+        "id": 67,
+        "kanji": "赤",
+        "pronuncia_kun": "あか",
+        "pronuncia_on": "セキ、シャク",
+        "hiragana": "せき、しゃく",
+        "katakana": "セキ、シャク",
+        "significado": "Vermelho"
+    },
+    "足": {
+        "id": 68,
+        "kanji": "足",
+        "pronuncia_kun": "あし",
+        "pronuncia_on": "ソク",
+        "hiragana": "そく",
+        "katakana": "ソク",
+        "significado": "Pé, perna"
+    },
+    "車": {
+        "id": 69,
+        "kanji": "車",
+        "pronuncia_kun": "くるま",
+        "pronuncia_on": "シャ",
+        "hiragana": "しゃ",
+        "katakana": "シャ",
+        "significado": "Carro"
+    },
+    "学": {
+        "id": 70,
+        "kanji": "学",
+        "pronuncia_kun": "まな・ぶ",
+        "pronuncia_on": "ガク",
+        "hiragana": "がく",
+        "katakana": "ガク",
+        "significado": "Estudar, aprender"
+    },
+    "林": {
+        "id": 71,
+        "kanji": "林",
+        "pronuncia_kun": "はやし",
+        "pronuncia_on": "リン",
+        "hiragana": "りん",
+        "katakana": "リン",
+        "significado": "Floresta"
+    },
+    "空": {
+        "id": 72,
+        "kanji": "空",
+        "pronuncia_kun": "そら、あ・く、あ・ける、から",
+        "pronuncia_on": "クウ",
+        "hiragana": "くう",
+        "katakana": "クウ",
+        "significado": "Céu, vazio"
+    },
+    "金": {
+        "id": 73,
+        "kanji": "金",
+        "pronuncia_kun": "かね、かな-、-がね",
+        "pronuncia_on": "キン、コン、ゴン",
+        "hiragana": "きん、こん、ごん",
+        "katakana": "キン、コン、ゴン",
+        "significado": "Ouro, dinheiro"
+    },
+    "雨": {
+        "id": 74,
+        "kanji": "雨",
+        "pronuncia_kun": "あめ、あま-、-さめ",
+        "pronuncia_on": "ウ",
+        "hiragana": "う",
+        "katakana": "ウ",
+        "significado": "Chuva"
+    },
+    "草": {
+        "id": 75,
+        "kanji": "草",
+        "pronuncia_kun": "くさ",
+        "pronuncia_on": "ソウ",
+        "hiragana": "そう",
+        "katakana": "ソウ",
+        "significado": "Grama"
+    },
+    "音": {
+        "id": 76,
+        "kanji": "音",
+        "pronuncia_kun": "おと、ね",
+        "pronuncia_on": "オン、イン",
+        "hiragana": "おん、いん",
+        "katakana": "オン、イン",
+        "significado": "Som"
+    },
+    "校": {
+        "id": 77,
+        "kanji": "校",
+        "pronuncia_kun": "",
+        "pronuncia_on": "コウ、キョウ",
+        "hiragana": "こう、きょう",
+        "katakana": "コウ、キョウ",
+        "significado": "Escola"
+    },
+    "森": {
+        "id": 78,
+        "kanji": "森",
+        "pronuncia_kun": "もり",
+        "pronuncia_on": "シン",
+        "hiragana": "しん",
+        "katakana": "シン",
+        "significado": "Floresta"
+    },
+    "青": {
+        "id": 79,
+        "kanji": "青",
+        "pronuncia_kun": "あお",
+        "pronuncia_on": "セイ",
+        "hiragana": "あお",
+        "katakana": "セイ",
+        "significado": "Azul"
+    },
+    "王": {
+        "id": 80,
+        "kanji": "王",
+        "pronuncia_kun": "おう",
+        "pronuncia_on": "オウ",
+        "hiragana": "おう",
+        "katakana": "オウ",
+        "significado": "Rei"
+    }
+}

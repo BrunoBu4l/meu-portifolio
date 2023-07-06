@@ -43,6 +43,10 @@ footer{
     margin: 30px;
 }
 
+#loadMore{
+    cursor: pointer;
+}
+
 /* media querry de responsividade */
 /* para tela até 992px */
 @media screen and (min-width: 992px) {

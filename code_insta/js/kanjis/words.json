@@ -1,0 +1,902 @@
+{
+  "一": {
+    "id": 1,
+    "kanji": "一",
+    "pronuncia_kun": "ひと・つ",
+    "pronuncia_on": "イチ",
+    "hiragana": "いち",
+    "katakana": "イチ",
+    "significado": "Um"
+  },
+  "ニ": {
+    "id": 2,
+    "kanji": "ニ",
+    "pronuncia_kun": "ふた・つ",
+    "pronuncia_on": "ニ",
+    "hiragana": "に",
+    "katakana": "ニ",
+    "significado": "Dois"
+  },
+  "三": {
+    "id": 3,
+    "kanji": "三",
+    "pronuncia_kun": "みっ・つ",
+    "pronuncia_on": "サン",
+    "hiragana": "さん",
+    "katakana": "サン",
+    "significado": "Três"
+  },
+  "四": {
+    "id": 4,
+    "kanji": "四",
+    "pronuncia_kun": "よ・つ",
+    "pronuncia_on": "シ",
+    "hiragana": "し",
+    "katakana": "シ",
+    "significado": "Quatro"
+  },
+  "五": {
+    "id": 5,
+    "kanji": "五",
+    "pronuncia_kun": "いつ・つ",
+    "pronuncia_on": "ゴ",
+    "hiragana": "ご",
+    "katakana": "ゴ",
+    "significado": "Cinco"
+  },
+  "六": {
+    "id": 6,
+    "kanji": "六",
+    "pronuncia_kun": "むっ・つ",
+    "pronuncia_on": "ロク",
+    "hiragana": "ろく",
+    "katakana": "ロク",
+    "significado": "Seis"
+  },
+  "七": {
+    "id": 7,
+    "kanji": "七",
+    "pronuncia_kun": "なな",
+    "pronuncia_on": "シチ",
+    "hiragana": "しち",
+    "katakana": "シチ",
+    "significado": "Sete"
+  },
+  "八": {
+    "id": 8,
+    "kanji": "八",
+    "pronuncia_kun": "や・つ",
+    "pronuncia_on": "ハチ",
+    "hiragana": "はち",
+    "katakana": "ハチ",
+    "significado": "Oito"
+  },
+  "九": {
+    "id": 9,
+    "kanji": "九",
+    "pronuncia_kun": "ここの・つ",
+    "pronuncia_on": "キュウ",
+    "hiragana": "きゅう",
+    "katakana": "キュウ",
+    "significado": "Nove"
+  },
+  "十": {
+    "id": 10,
+    "kanji": "十",
+    "pronuncia_kun": "とお",
+    "pronuncia_on": "ジュウ、ジッ、ジュッ",
+    "hiragana": "じゅう、じっ、じゅっ",
+    "katakana": "ジュウ、ジッ、ジュッ",
+    "significado": "Dez"
+  },
+  "十一": {
+    "id": 11,
+    "kanji": "十一",
+    "pronuncia_kun": "じゅう・いち",
+    "pronuncia_on": "ジュウ・イチ",
+    "hiragana": "じゅういち",
+    "katakana": "ジュウイチ",
+    "significado": "Onze"
+  },
+  "十二": {
+    "id": 12,
+    "kanji": "十二",
+    "pronuncia_kun": "じゅう・に",
+    "pronuncia_on": "ジュウ・ニ",
+    "hiragana": "じゅうに",
+    "katakana": "ジュウニ",
+    "significado": "Doze"
+  },
+  "十三": {
+    "id": 13,
+    "kanji": "十三",
+    "pronuncia_kun": "じゅう・さん",
+    "pronuncia_on": "ジュウ・サン",
+    "hiragana": "じゅうさん",
+    "katakana": "ジュウサン",
+    "significado": "Treze"
+  },
+  "十四": {
+    "id": 14,
+    "kanji": "十四",
+    "pronuncia_kun": "じゅう・し",
+    "pronuncia_on": "ジュウ・シ",
+    "hiragana": "じゅうし",
+    "katakana": "ジュウシ",
+    "significado": "Quatorze"
+  },
+  "十五": {
+    "id": 15,
+    "kanji": "十五",
+    "pronuncia_kun": "じゅう・ご",
+    "pronuncia_on": "ジュウ・ゴ",
+    "hiragana": "じゅうご",
+    "katakana": "ジュウゴ",
+    "significado": "Quinze"
+  },
+  "十六": {
+    "id": 16,
+    "kanji": "十六",
+    "pronuncia_kun": "じゅう・ろく",
+    "pronuncia_on": "ジュウ・ロク",
+    "hiragana": "じゅうろく",
+    "katakana": "ジュウロク",
+    "significado": "Dezesseis"
+  },
+  "十七": {
+    "id": 17,
+    "kanji": "十七",
+    "pronuncia_kun": "じゅう・しち",
+    "pronuncia_on": "ジュウ・シチ",
+    "hiragana": "じゅうしち",
+    "katakana": "ジュウシチ",
+    "significado": "Dezessete"
+  },
+  "十八": {
+    "id": 18,
+    "kanji": "十八",
+    "pronuncia_kun": "じゅう・はち",
+    "pronuncia_on": "ジュウ・ハチ",
+    "hiragana": "じゅうはち",
+    "katakana": "ジュウハチ",
+    "significado": "Dezoito"
+  },
+  "十九": {
+    "id": 19,
+    "kanji": "十九",
+    "pronuncia_kun": "じゅう・きゅう",
+    "pronuncia_on": "ジュウ・キュウ",
+    "hiragana": "じゅうきゅう",
+    "katakana": "ジュウキュウ",
+    "significado": "Dezenove"
+  },
+  "二十": {
+    "id": 20,
+    "kanji": "二十",
+    "pronuncia_kun": "はた・ち",
+    "pronuncia_on": "ニ・ジュウ",
+    "hiragana": "にじゅう",
+    "katakana": "ニジュウ",
+    "significado": "Vinte"
+  },
+  "二十一": {
+    "id": 21,
+    "kanji": "二十一",
+    "pronuncia_kun": "はた・ち・いち",
+    "pronuncia_on": "ニ・ジュウ・イチ",
+    "hiragana": "にじゅういち",
+    "katakana": "ニジュウイチ",
+    "significado": "Vinte e um"
+  },
+  "二十二": {
+    "id": 22,
+    "kanji": "二十二",
+    "pronuncia_kun": "はた・ち・に",
+    "pronuncia_on": "ニ・ジュウ・ニ",
+    "hiragana": "にじゅうに",
+    "katakana": "ニジュウニ",
+    "significado": "Vinte e dois"
+  },
+  "二十三": {
+    "id": 23,
+    "kanji": "二十三",
+    "pronuncia_kun": "はた・ち・さん",
+    "pronuncia_on": "ニ・ジュウ・サン",
+    "hiragana": "にじゅうさん",
+    "katakana": "ニジュウサン",
+    "significado": "Vinte e três"
+  },
+  "二十四": {
+    "id": 24,
+    "kanji": "二十四",
+    "pronuncia_kun": "はた・ち・し",
+    "pronuncia_on": "ニ・ジュウ・シ",
+    "hiragana": "にじゅうし",
+    "katakana": "ニジュウシ",
+    "significado": "Vinte e quatro"
+  },
+  "二十五": {
+    "id": 25,
+    "kanji": "二十五",
+    "pronuncia_kun": "はた・ち・ご",
+    "pronuncia_on": "ニ・ジュウ・ゴ",
+    "hiragana": "にじゅうご",
+    "katakana": "ニジュウゴ",
+    "significado": "Vinte e cinco"
+  },
+  "二十六": {
+    "id": 26,
+    "kanji": "二十六",
+    "pronuncia_kun": "はた・ち・ろく",
+    "pronuncia_on": "ニ・ジュウ・ロク",
+    "hiragana": "にじゅうろく",
+    "katakana": "ニジュウロク",
+    "significado": "Vinte e seis"
+  },
+  "二十七": {
+    "id": 27,
+    "kanji": "二十七",
+    "pronuncia_kun": "はた・ち・しち",
+    "pronuncia_on": "ニ・ジュウ・シチ",
+    "hiragana": "にじゅうしち",
+    "katakana": "ニジュウシチ",
+    "significado": "Vinte e sete"
+  },
+  "二十八": {
+    "id": 28,
+    "kanji": "二十八",
+    "pronuncia_kun": "はた・ち・はち",
+    "pronuncia_on": "ニ・ジュウ・ハチ",
+    "hiragana": "にじゅうはち",
+    "katakana": "ニジュウハチ",
+    "significado": "Vinte e oito"
+  },
+  "二十九": {
+    "id": 29,
+    "kanji": "二十九",
+    "pronuncia_kun": "はた・ち・きゅう",
+    "pronuncia_on": "ニ・ジュウ・キュウ",
+    "hiragana": "にじゅうきゅう",
+    "katakana": "ニジュウキュウ",
+    "significado": "Vinte e nove"
+  },
+  "三十": {
+    "id": 30,
+    "kanji": "三十",
+    "pronuncia_kun": "みそ・じゅう",
+    "pronuncia_on": "サン・ジュウ",
+    "hiragana": "さんじゅう",
+    "katakana": "サンジュウ",
+    "significado": "Trinta"
+  },
+  "三十一": {
+    "id": 31,
+    "kanji": "三十一",
+    "pronuncia_kun": "みそ・じゅう・いち",
+    "pronuncia_on": "サン・ジュウ・イチ",
+    "hiragana": "さんじゅういち",
+    "katakana": "サンジュウイチ",
+    "significado": "Trinta e um"
+  },
+  "三十二": {
+    "id": 32,
+    "kanji": "三十二",
+    "pronuncia_kun": "みそ・じゅう・に",
+    "pronuncia_on": "サン・ジュウ・ニ",
+    "hiragana": "さんじゅうに",
+    "katakana": "サンジュウニ",
+    "significado": "Trinta e dois"
+  },
+  "三十三": {
+    "id": 33,
+    "kanji": "三十三",
+    "pronuncia_kun": "みそ・じゅう・さん",
+    "pronuncia_on": "サン・ジュウ・サン",
+    "hiragana": "さんじゅうさん",
+    "katakana": "サンジュウサン",
+    "significado": "Trinta e três"
+  },
+  "三十四": {
+    "id": 34,
+    "kanji": "三十四",
+    "pronuncia_kun": "みそ・じゅう・し",
+    "pronuncia_on": "サン・ジュウ・シ",
+    "hiragana": "さんじゅうし",
+    "katakana": "サンジュウシ",
+    "significado": "Trinta e quatro"
+  },
+  "三十五": {
+    "id": 35,
+    "kanji": "三十五",
+    "pronuncia_kun": "みそ・じゅう・ご",
+    "pronuncia_on": "サン・ジュウ・ゴ",
+    "hiragana": "さんじゅうご",
+    "katakana": "サンジュウゴ",
+    "significado": "Trinta e cinco"
+  },
+  "三十六": {
+    "id": 36,
+    "kanji": "三十六",
+    "pronuncia_kun": "みそ・じゅう・ろく",
+    "pronuncia_on": "サン・ジュウ・ロク",
+    "hiragana": "さんじゅうろく",
+    "katakana": "サンジュウロク",
+    "significado": "Trinta e seis"
+  },
+  "三十七": {
+    "id": 37,
+    "kanji": "三十七",
+    "pronuncia_kun": "みそ・じゅう・しち",
+    "pronuncia_on": "サン・ジュウ・シチ",
+    "hiragana": "さんじゅうしち",
+    "katakana": "サンジュウシチ",
+    "significado": "Trinta e sete"
+  },
+  "三十八": {
+    "id": 38,
+    "kanji": "三十八",
+    "pronuncia_kun": "みそ・じゅう・はち",
+    "pronuncia_on": "サン・ジュウ・ハチ",
+    "hiragana": "さんじゅうはち",
+    "katakana": "サンジュウハチ",
+    "significado": "Trinta e oito"
+  },
+  "三十九": {
+    "id": 39,
+    "kanji": "三十九",
+    "pronuncia_kun": "みそ・じゅう・きゅう",
+    "pronuncia_on": "サン・ジュウ・キュウ",
+    "hiragana": "さんじゅうきゅう",
+    "katakana": "サンジュウキュウ",
+    "significado": "Trinta e nove"
+  },
+  "四十": {
+    "id": 40,
+    "kanji": "四十",
+    "pronuncia_kun": "よん・じゅう",
+    "pronuncia_on": "シ・ジュウ",
+    "hiragana": "よんじゅう",
+    "katakana": "シジュウ",
+    "significado": "Quarenta"
+  },
+  "四十一": {
+    "id": 41,
+    "kanji": "四十一",
+    "pronuncia_kun": "よん・じゅう・いち",
+    "pronuncia_on": "シ・ジュウ・イチ",
+    "hiragana": "よんじゅういち",
+    "katakana": "シジュウイチ",
+    "significado": "Quarenta e um"
+  },
+  "四十二": {
+    "id": 42,
+    "kanji": "四十二",
+    "pronuncia_kun": "よん・じゅう・に",
+    "pronuncia_on": "シ・ジュウ・ニ",
+    "hiragana": "よんじゅうに",
+    "katakana": "シジュウニ",
+    "significado": "Quarenta e dois"
+  },
+  "四十三": {
+    "id": 43,
+    "kanji": "四十三",
+    "pronuncia_kun": "よん・じゅう・さん",
+    "pronuncia_on": "シ・ジュウ・サン",
+    "hiragana": "よんじゅうさん",
+    "katakana": "シジュウサン",
+    "significado": "Quarenta e três"
+  },
+  "四十四": {
+    "id": 44,
+    "kanji": "四十四",
+    "pronuncia_kun": "よん・じゅう・し",
+    "pronuncia_on": "シ・ジュウ・シ",
+    "hiragana": "よんじゅうし",
+    "katakana": "シジュウシ",
+    "significado": "Quarenta e quatro"
+  },
+  "四十五": {
+    "id": 45,
+    "kanji": "四十五",
+    "pronuncia_kun": "よん・じゅう・ご",
+    "pronuncia_on": "シ・ジュウ・ゴ",
+    "hiragana": "よんじゅうご",
+    "katakana": "シジュウゴ",
+    "significado": "Quarenta e cinco"
+  },
+  "四十六": {
+    "id": 46,
+    "kanji": "四十六",
+    "pronuncia_kun": "よん・じゅう・ろく",
+    "pronuncia_on": "シ・ジュウ・ロク",
+    "hiragana": "よんじゅうろく",
+    "katakana": "シジュウロク",
+    "significado": "Quarenta e seis"
+  },
+  "四十七": {
+    "id": 47,
+    "kanji": "四十七",
+    "pronuncia_kun": "よん・じゅう・しち",
+    "pronuncia_on": "シ・ジュウ・シチ",
+    "hiragana": "よんじゅうしち",
+    "katakana": "シジュウシチ",
+    "significado": "Quarenta e sete"
+  },
+  "四十八": {
+    "id": 48,
+    "kanji": "四十八",
+    "pronuncia_kun": "よん・じゅう・はち",
+    "pronuncia_on": "シ・ジュウ・ハチ",
+    "hiragana": "よんじゅうはち",
+    "katakana": "シジュウハチ",
+    "significado": "Quarenta e oito"
+  },
+  "四十九": {
+    "id": 49,
+    "kanji": "四十九",
+    "pronuncia_kun": "よん・じゅう・きゅう",
+    "pronuncia_on": "シ・ジュウ・キュウ",
+    "hiragana": "よんじゅうきゅう",
+    "katakana": "シジュウキュウ",
+    "significado": "Quarenta e nove"
+  },
+  "五十": {
+    "id": 50,
+    "kanji": "五十",
+    "pronuncia_kun": "ご・じゅう",
+    "pronuncia_on": "ゴ・ジュウ",
+    "hiragana": "ごじゅう",
+    "katakana": "ゴジュウ",
+    "significado": "Cinquenta"
+  },
+  "五十一": {
+    "id": 51,
+    "kanji": "五十一",
+    "pronuncia_kun": "ご・じゅう・いち",
+    "pronuncia_on": "ゴ・ジュウ・イチ",
+    "hiragana": "ごじゅういち",
+    "katakana": "ゴジュウイチ",
+    "significado": "Cinquenta e um"
+  },
+  "五十二": {
+    "id": 52,
+    "kanji": "五十二",
+    "pronuncia_kun": "ご・じゅう・に",
+    "pronuncia_on": "ゴ・ジュウ・ニ",
+    "hiragana": "ごじゅうに",
+    "katakana": "ゴジュウニ",
+    "significado": "Cinquenta e dois"
+  },
+  "五十三": {
+    "id": 53,
+    "kanji": "五十三",
+    "pronuncia_kun": "ご・じゅう・さん",
+    "pronuncia_on": "ゴ・ジュウ・サン",
+    "hiragana": "ごじゅうさん",
+    "katakana": "ゴジュウサン",
+    "significado": "Cinquenta e três"
+  },
+  "五十四": {
+    "id": 54,
+    "kanji": "五十四",
+    "pronuncia_kun": "ご・じゅう・し",
+    "pronuncia_on": "ゴ・ジュウ・シ",
+    "hiragana": "ごじゅうし",
+    "katakana": "ゴジュウシ",
+    "significado": "Cinquenta e quatro"
+  },
+  "五十五": {
+    "id": 55,
+    "kanji": "五十五",
+    "pronuncia_kun": "ご・じゅう・ご",
+    "pronuncia_on": "ゴ・ジュウ・ゴ",
+    "hiragana": "ごじゅうご",
+    "katakana": "ゴジュウゴ",
+    "significado": "Cinquenta e cinco"
+  },
+  "五十六": {
+    "id": 56,
+    "kanji": "五十六",
+    "pronuncia_kun": "ご・じゅう・ろく",
+    "pronuncia_on": "ゴ・ジュウ・ロク",
+    "hiragana": "ごじゅうろく",
+    "katakana": "ゴジュウロク",
+    "significado": "Cinquenta e seis"
+  },
+  "五十七": {
+    "id": 57,
+    "kanji": "五十七",
+    "pronuncia_kun": "ご・じゅう・しち",
+    "pronuncia_on": "ゴ・ジュウ・シチ",
+    "hiragana": "ごじゅうしち",
+    "katakana": "ゴジュウシチ",
+    "significado": "Cinquenta e sete"
+  },
+  "五十八": {
+    "id": 58,
+    "kanji": "五十八",
+    "pronuncia_kun": "ご・じゅう・はち",
+    "pronuncia_on": "ゴ・ジュウ・ハチ",
+    "hiragana": "ごじゅうはち",
+    "katakana": "ゴジュウハチ",
+    "significado": "Cinquenta e oito"
+  },
+  "五十九": {
+    "id": 59,
+    "kanji": "五十九",
+    "pronuncia_kun": "ご・じゅう・きゅう",
+    "pronuncia_on": "ゴ・ジュウ・キュウ",
+    "hiragana": "ごじゅうきゅう",
+    "katakana": "ゴジュウキュウ",
+    "significado": "Cinquenta e nove"
+  },
+  "六十": {
+    "id": 60,
+    "kanji": "六十",
+    "pronuncia_kun": "ろく・じゅう",
+    "pronuncia_on": "ロク・ジュウ",
+    "hiragana": "ろくじゅう",
+    "katakana": "ロクジュウ",
+    "significado": "Sessenta"
+  },
+  "六十一": {
+    "id": 61,
+    "kanji": "六十一",
+    "pronuncia_kun": "ろく・じゅう・いち",
+    "pronuncia_on": "ロク・ジュウ・イチ",
+    "hiragana": "ろくじゅういち",
+    "katakana": "ロクジュウイチ",
+    "significado": "Sessenta e um"
+  },
+  "六十二": {
+    "id": 62,
+    "kanji": "六十二",
+    "pronuncia_kun": "ろく・じゅう・に",
+    "pronuncia_on": "ロク・ジュウ・ニ",
+    "hiragana": "ろくじゅうに",
+    "katakana": "ロクジュウニ",
+    "significado": "Sessenta e dois"
+  },
+  "六十三": {
+    "id": 63,
+    "kanji": "六十三",
+    "pronuncia_kun": "ろく・じゅう・さん",
+    "pronuncia_on": "ロク・ジュウ・サン",
+    "hiragana": "ろくじゅうさん",
+    "katakana": "ロクジュウサン",
+    "significado": "Sessenta e três"
+  },
+  "六十四": {
+    "id": 64,
+    "kanji": "六十四",
+    "pronuncia_kun": "ろく・じゅう・し",
+    "pronuncia_on": "ロク・ジュウ・シ",
+    "hiragana": "ろくじゅうし",
+    "katakana": "ロクジュウシ",
+    "significado": "Sessenta e quatro"
+  },
+  "六十五": {
+    "id": 65,
+    "kanji": "六十五",
+    "pronuncia_kun": "ろく・じゅう・ご",
+    "pronuncia_on": "ロク・ジュウ・ゴ",
+    "hiragana": "ろくじゅうご",
+    "katakana": "ロクジュウゴ",
+    "significado": "Sessenta e cinco"
+  },
+  "六十六": {
+    "id": 66,
+    "kanji": "六十六",
+    "pronuncia_kun": "ろく・じゅう・ろく",
+    "pronuncia_on": "ロク・ジュウ・ロク",
+    "hiragana": "ろくじゅうろく",
+    "katakana": "ロクジュウロク",
+    "significado": "Sessenta e seis"
+  },
+  "六十七": {
+    "id": 67,
+    "kanji": "六十七",
+    "pronuncia_kun": "ろく・じゅう・しち",
+    "pronuncia_on": "ロク・ジュウ・シチ",
+    "hiragana": "ろくじゅうしち",
+    "katakana": "ロクジュウシチ",
+    "significado": "Sessenta e sete"
+  },
+  "六十八": {
+    "id": 68,
+    "kanji": "六十八",
+    "pronuncia_kun": "ろく・じゅう・はち",
+    "pronuncia_on": "ロク・ジュウ・ハチ",
+    "hiragana": "ろくじゅうはち",
+    "katakana": "ロクジュウハチ",
+    "significado": "Sessenta e oito"
+  },
+  "六十九": {
+    "id": 69,
+    "kanji": "六十九",
+    "pronuncia_kun": "ろく・じゅう・きゅう",
+    "pronuncia_on": "ロク・ジュウ・キュウ",
+    "hiragana": "ろくじゅうきゅう",
+    "katakana": "ロクジュウキュウ",
+    "significado": "Sessenta e nove"
+  },
+  "七十": {
+    "id": 70,
+    "kanji": "七十",
+    "pronuncia_kun": "なな・じゅう",
+    "pronuncia_on": "シチ・ジュウ",
+    "hiragana": "ななじゅう",
+    "katakana": "シチジュウ",
+    "significado": "Setenta"
+  },
+  "七十一": {
+    "id": 71,
+    "kanji": "七十一",
+    "pronuncia_kun": "なな・じゅう・いち",
+    "pronuncia_on": "シチ・ジュウ・イチ",
+    "hiragana": "ななじゅういち",
+    "katakana": "シチジュウイチ",
+    "significado": "Setenta e um"
+  },
+  "七十二": {
+    "id": 72,
+    "kanji": "七十二",
+    "pronuncia_kun": "なな・じゅう・に",
+    "pronuncia_on": "シチ・ジュウ・ニ",
+    "hiragana": "ななじゅうに",
+    "katakana": "シチジュウニ",
+    "significado": "Setenta e dois"
+  },
+  "七十三": {
+    "id": 73,
+    "kanji": "七十三",
+    "pronuncia_kun": "なな・じゅう・さん",
+    "pronuncia_on": "シチ・ジュウ・サン",
+    "hiragana": "ななじゅうさん",
+    "katakana": "シチジュウサン",
+    "significado": "Setenta e três"
+  },
+  "七十四": {
+    "id": 74,
+    "kanji": "七十四",
+    "pronuncia_kun": "なな・じゅう・し",
+    "pronuncia_on": "シチ・ジュウ・シ",
+    "hiragana": "ななじゅうし",
+    "katakana": "シチジュウシ",
+    "significado": "Setenta e quatro"
+  },
+  "七十五": {
+    "id": 75,
+    "kanji": "七十五",
+    "pronuncia_kun": "なな・じゅう・ご",
+    "pronuncia_on": "シチ・ジュウ・ゴ",
+    "hiragana": "ななじゅうご",
+    "katakana": "シチジュウゴ",
+    "significado": "Setenta e cinco"
+  },
+  "七十六": {
+    "id": 76,
+    "kanji": "七十六",
+    "pronuncia_kun": "なな・じゅう・ろく",
+    "pronuncia_on": "シチ・ジュウ・ロク",
+    "hiragana": "ななじゅうろく",
+    "katakana": "シチジュウロク",
+    "significado": "Setenta e seis"
+  },
+  "七十七": {
+    "id": 77,
+    "kanji": "七十七",
+    "pronuncia_kun": "なな・じゅう・しち",
+    "pronuncia_on": "シチ・ジュウ・シチ",
+    "hiragana": "ななじゅうしち",
+    "katakana": "シチジュウシチ",
+    "significado": "Setenta e sete"
+  },
+  "七十八": {
+    "id": 78,
+    "kanji": "七十八",
+    "pronuncia_kun": "なな・じゅう・はち",
+    "pronuncia_on": "シチ・ジュウ・ハチ",
+    "hiragana": "ななじゅうはち",
+    "katakana": "シチジュウハチ",
+    "significado": "Setenta e oito"
+  },
+  "七十九": {
+    "id": 79,
+    "kanji": "七十九",
+    "pronuncia_kun": "なな・じゅう・きゅう",
+    "pronuncia_on": "シチ・ジュウ・キュウ",
+    "hiragana": "ななじゅうきゅう",
+    "katakana": "シチジュウキュウ",
+    "significado": "Setenta e nove"
+  },
+  "八十": {
+    "id": 80,
+    "kanji": "八十",
+    "pronuncia_kun": "はち・じゅう",
+    "pronuncia_on": "ハチ・ジュウ",
+    "hiragana": "はちじゅう",
+    "katakana": "ハチジュウ",
+    "significado": "Oitenta"
+  },
+  "八十一": {
+    "id": 81,
+    "kanji": "八十一",
+    "pronuncia_kun": "はち・じゅう・いち",
+    "pronuncia_on": "ハチ・ジュウ・イチ",
+    "hiragana": "はちじゅういち",
+    "katakana": "ハチジュウイチ",
+    "significado": "Oitenta e um"
+  },
+  "八十二": {
+    "id": 82,
+    "kanji": "八十二",
+    "pronuncia_kun": "はち・じゅう・に",
+    "pronuncia_on": "ハチ・ジュウ・ニ",
+    "hiragana": "はちじゅうに",
+    "katakana": "ハチジュウニ",
+    "significado": "Oitenta e dois"
+  },
+  "八十三": {
+    "id": 83,
+    "kanji": "八十三",
+    "pronuncia_kun": "はち・じゅう・さん",
+    "pronuncia_on": "ハチ・ジュウ・サン",
+    "hiragana": "はちじゅうさん",
+    "katakana": "ハチジュウサン",
+    "significado": "Oitenta e três"
+  },
+  "八十四": {
+    "id": 84,
+    "kanji": "八十四",
+    "pronuncia_kun": "はち・じゅう・し",
+    "pronuncia_on": "ハチ・ジュウ・シ",
+    "hiragana": "はちじゅうし",
+    "katakana": "ハチジュウシ",
+    "significado": "Oitenta e quatro"
+  },
+  "八十五": {
+    "id": 85,
+    "kanji": "八十五",
+    "pronuncia_kun": "はち・じゅう・ご",
+    "pronuncia_on": "ハチ・ジュウ・ゴ",
+    "hiragana": "はちじゅうご",
+    "katakana": "ハチジュウゴ",
+    "significado": "Oitenta e cinco"
+  },
+  "八十六": {
+    "id": 86,
+    "kanji": "八十六",
+    "pronuncia_kun": "はち・じゅう・ろく",
+    "pronuncia_on": "ハチ・ジュウ・ロク",
+    "hiragana": "はちじゅうろく",
+    "katakana": "ハチジュウロク",
+    "significado": "Oitenta e seis"
+  },
+  "八十七": {
+    "id": 87,
+    "kanji": "八十七",
+    "pronuncia_kun": "はち・じゅう・しち",
+    "pronuncia_on": "ハチ・ジュウ・シチ",
+    "hiragana": "はちじゅうしち",
+    "katakana": "ハチジュウシチ",
+    "significado": "Oitenta e sete"
+  },
+  "八十八": {
+    "id": 88,
+    "kanji": "八十八",
+    "pronuncia_kun": "はち・じゅう・はち",
+    "pronuncia_on": "ハチ・ジュウ・ハチ",
+    "hiragana": "はちじゅうはち",
+    "katakana": "ハチジュウハチ",
+    "significado": "Oitenta e oito"
+  },
+  "八十九": {
+    "id": 89,
+    "kanji": "八十九",
+    "pronuncia_kun": "はち・じゅう・きゅう",
+    "pronuncia_on": "ハチ・ジュウ・キュウ",
+    "hiragana": "はちじゅうきゅう",
+    "katakana": "ハチジュウキュウ",
+    "significado": "Oitenta e nove"
+  },
+  "九十": {
+    "id": 90,
+    "kanji": "九十",
+    "pronuncia_kun": "きゅう・じゅう",
+    "pronuncia_on": "キュウ・ジュウ",
+    "hiragana": "きゅうじゅう",
+    "katakana": "キュウジュウ",
+    "significado": "Noventa"
+  },
+  "九十一": {
+    "id": 91,
+    "kanji": "九十一",
+    "pronuncia_kun": "きゅう・じゅう・いち",
+    "pronuncia_on": "キュウ・ジュウ・イチ",
+    "hiragana": "きゅうじゅういち",
+    "katakana": "キュウジュウイチ",
+    "significado": "Noventa e um"
+  },
+  "九十二": {
+    "id": 92,
+    "kanji": "九十二",
+    "pronuncia_kun": "きゅう・じゅう・に",
+    "pronuncia_on": "キュウ・ジュウ・ニ",
+    "hiragana": "きゅうじゅうに",
+    "katakana": "キュウジュウニ",
+    "significado": "Noventa e dois"
+  },
+  "九十三": {
+    "id": 93,
+    "kanji": "九十三",
+    "pronuncia_kun": "きゅう・じゅう・さん",
+    "pronuncia_on": "キュウ・ジュウ・サン",
+    "hiragana": "きゅうじゅうさん",
+    "katakana": "キュウジュウサン",
+    "significado": "Noventa e três"
+  },
+  "九十四": {
+    "id": 94,
+    "kanji": "九十四",
+    "pronuncia_kun": "きゅう・じゅう・し",
+    "pronuncia_on": "キュウ・ジュウ・シ",
+    "hiragana": "きゅうじゅうし",
+    "katakana": "キュウジュウシ",
+    "significado": "Noventa e quatro"
+  },
+  "九十五": {
+    "id": 95,
+    "kanji": "九十五",
+    "pronuncia_kun": "きゅう・じゅう・ご",
+    "pronuncia_on": "キュウ・ジュウ・ゴ",
+    "hiragana": "きゅうじゅうご",
+    "katakana": "キュウジュウゴ",
+    "significado": "Noventa e cinco"
+  },
+  "九十六": {
+    "id": 96,
+    "kanji": "九十六",
+    "pronuncia_kun": "きゅう・じゅう・ろく",
+    "pronuncia_on": "キュウ・ジュウ・ロク",
+    "hiragana": "きゅうじゅうろく",
+    "katakana": "キュウジュウロク",
+    "significado": "Noventa e seis"
+  },
+  "九十七": {
+    "id": 97,
+    "kanji": "九十七",
+    "pronuncia_kun": "きゅう・じゅう・しち",
+    "pronuncia_on": "キュウ・ジュウ・シチ",
+    "hiragana": "きゅうじゅうしち",
+    "katakana": "キュウジュウシチ",
+    "significado": "Noventa e sete"
+  },
+  "九十八": {
+    "id": 98,
+    "kanji": "九十八",
+    "pronuncia_kun": "きゅう・じゅう・はち",
+    "pronuncia_on": "キュウ・ジュウ・ハチ",
+    "hiragana": "きゅうじゅうはち",
+    "katakana": "キュウジュウハチ",
+    "significado": "Noventa e oito"
+  },
+  "九十九": {
+    "id": 99,
+    "kanji": "九十九",
+    "pronuncia_kun": "きゅう・じゅう・きゅう",
+    "pronuncia_on": "キュウ・ジュウ・キュウ",
+    "hiragana": "きゅうじゅうきゅう",
+    "katakana": "キュウジュウキュウ",
+    "significado": "Noventa e nove"
+  },
+  "百": {
+    "id": 100,
+    "kanji": "百",
+    "pronuncia_kun": "ひゃく",
+    "pronuncia_on": "ヒャク",
+    "hiragana": "ひゃく",
+    "katakana": "ヒャク",
+    "significado": "Cem"
+  }
+}
