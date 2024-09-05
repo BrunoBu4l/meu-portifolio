@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Palavras Compostas</title>
+    <link rel="stylesheet" href="../css/styleGame.css">
+</head>
+
+<body>
+    <!-- Campo "junção" -->
+    <div class="juncao">
+        <div class="col-2">
+            <div class="card text-white mb-1" id="card1" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="card__body card__body--front">
+                    <h2 class="card__text"></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="card text-white mb-1" id="card2" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="card__body card__body--front">
+                    <h2 class="card__text"></h2>
+                </div>
+            </div>
+        </div>
+        <div class="equal">
+            <h1>=</h1>
+        </div>
+        <p id="card0"></p>
+        <div class="col-2">
+            <div class="card text-white mb-3" id="card12">
+                <div class="">
+                    <article class="card">
+                        <div class="card__inner">
+                            <div class="card__body card__body--front">
+                                <h2 class="card__title card__text" id="pegar" data-value=""></h2>
+                            </div>
+                            <div class="card__body card__body--back" id="card_12">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div id="game-container">
+            <h1>Combine as Palavras</h1>
+            <div id="card-container"></div>
+        </div>
+    </div>
+
+    <script src="../js/javaGame2.js"></script>
+</body>
+
+</html>
