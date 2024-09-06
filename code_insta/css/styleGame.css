@@ -2,16 +2,28 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
     background-color: #f0f0f0;
+}
+
+.juncao {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: row;
 }
 
 #game-container {
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
 #card-container {
@@ -48,9 +60,6 @@ body {
     margin: 3px;
 }
 
-
-
-
 .card__body {
     position: absolute;
     inset: 0;
@@ -68,22 +77,13 @@ body {
     width: 98%;
     height: 320px;
     margin-left: 8%;
-    /* background-color: #40cf2d; */
-    /* border: solid 5px black;	 */
+    background-color: #40cf2d;
+    border: solid 5px black;
 }
 
-
-.juncao {
+.equal {
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: center;
-}
-
-.egual {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-end;
     margin: 35px;
     font-weight: bold;
 }
@@ -93,4 +93,17 @@ body {
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+}
+
+.cards-bar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Permite que as cartas se ajustem caso não caibam em uma única linha */
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    width: 90%;
+    height: 250px;
+    overflow-y: scroll;
+    scrollbar-width: auto;
 }
